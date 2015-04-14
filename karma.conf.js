@@ -7,7 +7,7 @@ module.exports = function(config) {
 
     frameworks: ['jasmine'],
 	  
-	reporters: ['coverage', 'progress'],
+	reporters: ['coverage'],
 
     ngHtml2JsPreprocessor: {
       stripPrefix: 'src/',
@@ -25,7 +25,7 @@ module.exports = function(config) {
 
     preprocessors: {
       'src/**/*.html': ['ng-html2js'],
-	  'src/**/*.js': ['coverage', 'progress']
+	  'src/**/*.js': ['coverage']
     },
 	// optionally, configure the reporter
     coverageReporter: {
