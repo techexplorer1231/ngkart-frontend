@@ -7,7 +7,7 @@ module.exports = function(config) {
 
     frameworks: ['jasmine'],
 	  
-	reporters: ['coverage'],
+	reporters: ['coverage', 'coveralls'],
 
     ngHtml2JsPreprocessor: {
       stripPrefix: 'src/',
@@ -20,6 +20,7 @@ module.exports = function(config) {
       'karma-phantomjs-launcher',
       'karma-jasmine',
 	  'karma-coverage',
+	  'karma-coveralls',
       'karma-ng-html2js-preprocessor'
     ],
 
