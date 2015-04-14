@@ -1,0 +1,2 @@
+[![Build Status](https://travis-ci.org/dreamweaver1231/ngkart-frontend.svg?branch=master)](https://travis-ci.org/dreamweaver1231/ngkart-frontend)
+[![Coverage Status](https://coveralls.io/repos/dreamweaver1231/ngkart-frontend/badge.svg)](https://coveralls.io/r/dreamweaver1231/ngkart-frontend)
