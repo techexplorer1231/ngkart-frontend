@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('workspace')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', function($scope) {
     $scope.awesomeThings = [
       {
         'title': 'AngularJS',

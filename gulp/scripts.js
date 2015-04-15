@@ -11,6 +11,7 @@ module.exports = function(options) {
       .pipe($.jshint())
       .pipe($.jshint.reporter('jshint-stylish'))
       .pipe(browserSync.reload({ stream: true }))
-      .pipe($.size());
+      .pipe($.size())
+	  .pipe($.jscs());
   });
 };
