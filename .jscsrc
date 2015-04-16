@@ -1,7 +1,7 @@
 {
   "excludeFiles": ["src/ngLocale/**"],
   "disallowKeywords": ["with"],
-  "validateLineBreaks": "CR",
+  "validateLineBreaks": "CRLF",
   "disallowKeywordsOnNewLine": ["else"],
   "disallowMixedSpacesAndTabs": true,
   "disallowMultipleLineStrings": true,

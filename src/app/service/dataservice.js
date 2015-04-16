@@ -4,9 +4,9 @@
     .module('workspace')
     .factory('dataservice', dataservice);
 
-  dataservice.$inject = ['$http', 'logger'];
+  dataservice.$inject = ['$http', 'logger', 'BACKEND_URL'];
 
-  function dataservice($http, logger) {
+  function dataservice($http, logger, BACKEND_URL) {
     return {
       getProducts: getProducts
     };
