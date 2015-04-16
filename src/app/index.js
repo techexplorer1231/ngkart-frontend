@@ -1,10 +1,11 @@
-(function() {
+(function () {
   'use strict';
 
   angular
     .module('workspace', [
-            'ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ui.bootstrap'
+            'ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr'
         ])
+    .constant('_', window._)
     .config(configuration);
 
   configuration.$inject = ['$stateProvider', '$urlRouterProvider'];

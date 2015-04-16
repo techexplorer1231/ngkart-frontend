@@ -6,8 +6,8 @@ module.exports = function(config) {
     autoWatch : false,
 
     frameworks: ['jasmine'],
-	  
-	reporters: ['coverage', 'coveralls'],
+
+  reporters: ['coverage', 'coveralls'],
 
     ngHtml2JsPreprocessor: {
       stripPrefix: 'src/',
@@ -19,16 +19,16 @@ module.exports = function(config) {
     plugins : [
       'karma-phantomjs-launcher',
       'karma-jasmine',
-	  'karma-coverage',
-	  'karma-coveralls',
+      'karma-coverage',
+      'karma-coveralls',
       'karma-ng-html2js-preprocessor'
     ],
 
     preprocessors: {
       'src/**/*.html': ['ng-html2js'],
-	  'src/**/*.js': ['coverage']
+    'src/**/*.js': ['coverage']
     },
-	// optionally, configure the reporter
+  // optionally, configure the reporter
     coverageReporter: {
       type : ['lcov'],
       dir : 'coverage/'

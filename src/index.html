@@ -28,8 +28,49 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+
+    <!-- Header Section Starts -->
+    <header id="header-area">
+      <ec-header-top></ec-header-top>
+      <div class="container">
+
+        <!-- Main Header Starts -->
+        <div class="main-header">
+          <div class="row">
+
+            <!-- Logo Starts -->
+            <div class="col-md-6">
+              <div id="logo">
+                <a href="index.html"><i class="fa fa-shopping-cart" style="font-size:70px; color:#fcb500"></i></a>
+              </div>
+            </div>
+            <!-- Logo Starts -->
+
+            <!-- Search Starts -->
+            <ec-header-search></ec-header-search>
+            <!-- Search Ends -->
+
+            <!-- Shopping Cart Starts -->
+            <ec-header-cart></ec-header-cart>
+            <!-- Shopping Cart Ends -->
+
+          </div>
+        </div>
+        <!-- Main Header Ends -->
+
+        <!-- Main Menu Starts -->
+        <ec-header-nav></ec-header-nav>
+        <!-- Main Menu Ends -->
+      </div>
+    </header>
+    <!-- Header Section Ends -->
+
     <div ui-view></div>
-    
+
+    <!-- Footer Section Starts -->
+    <ec-footer></ec-footer>
+    <!-- Footer Section Starts -->
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

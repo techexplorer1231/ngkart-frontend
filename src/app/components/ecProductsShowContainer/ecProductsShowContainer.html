@@ -1,0 +1,16 @@
+<!-- Latest Products Starts -->
+<section class="products-list">
+  <div class="container">
+    <!-- Heading Starts -->
+    <h2 class="product-head" ng-bind='vm.heading'></h2>
+    <!-- Heading Ends -->
+    <!-- Products Row Starts -->
+    <div class="row">
+       <div ng-repeat="product in vm.products|limitTo: vm.count">
+         <ec-products-show-grid data="product" ></ec-products-show-grid>
+       </div>
+    </div>
+    <!-- Products Row Starts -->
+  </div>
+</section>
+<!-- Latest Products Ends -->
